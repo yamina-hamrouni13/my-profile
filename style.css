@@ -1,0 +1,108 @@
+body {
+	background-color: rgb(235, 244, 250);
+	color: rgb(12, 9, 10);
+	font-family: sylfaen;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1, h2 {
+	font-family: times new roman;
+}
+
+h1 {
+	color: rgb(53, 126, 199);
+	font-weight: 100;
+	font-size: 28px solid;
+	letter-spacing: 4px;
+}
+
+img {
+width: 295px;
+border: 5px solid #bad0d8;
+box-shadow: 10px 20px 30px rgb(0 0 0 / 20%);
+}
+.img-circle{
+	border-radius: 50%;
+}
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#introduction, .card-white {
+	text-align: center;
+	background: ghostwhite;
+	padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 8px 30px rgba(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+h2{
+	color: rgb(59, 185, 255);
+	font-size: 26px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: rgb(53, 126, 199);
+	font-size: 25px;
+	font-weight: 200;
+}
+.btn-blue {
+  background-color: rgb(235, 244, 250);
+  color: rgb(53, 126, 199);
+  padding: 16px 32px;
+  font-size: 17px;
+  margin: 4px 2px;
+  transition-duration: 0,8s;
+  border: 1px solid rgb(53, 126, 199);
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: rgb(53, 126, 199);
+	color: rgb(235, 244, 250);
+	font-size: 19px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+	font-size: 24px;
+	color: #bad0d8;
+}
+
+.list-inline i:hover {
+	font-size: 29px;
+	color: rgb(53, 126, 199);
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+  
+
+
+
